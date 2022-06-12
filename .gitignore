@@ -1,0 +1,15 @@
+./*/Debug/
+*.suo
+*.db
+*.ipch
+*.sln
+*.vcx*
+*.exe*
+*.log
+*.pdb
+*.tlog
+*.obj
+*.idb
+*.ilk
+*.recipe
+*.txt
