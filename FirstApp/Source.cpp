@@ -1,16 +1,10 @@
-//Initial program to demonstrate stdin and stdout
-#include <iostream>
-#include <string>
+//First Program which sends output to the console
 
-int main()
+#include <iostream> //include this header for output operations
+
+int main()  //the OS first calls main()
 {
-	std::cout << "Hello World\n"; //cout is an object of the class ostream
-
-	std::cout << "\nEnter your name :";
-	std::string aname;
-
-	std::cin >> aname; //cin is an object of the class istream
-	std::cout << "\nThe name that you entered is :" << aname;
+	std::cout << "Hello World!"; //send output to the console. cout is an object of type ostream
 
 	return 0;
 }
