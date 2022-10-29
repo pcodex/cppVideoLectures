@@ -9,8 +9,8 @@ namespace LearnCPP
 
 	void MyClass::display()
 	{
-		std::cout << "The class member value is  " << cvar<<"\n";
-		std::cout << "The namespace variable value is " << adblVal<<"\n";
+		std::cout << "The class member variable value is : " << cvar<<"\n";
+		std::cout << "The namespace variable adblVal is : " << adblVal<<"\n";
 	}
 
 
