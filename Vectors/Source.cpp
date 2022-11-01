@@ -12,7 +12,7 @@ int main()
 	//create a vector of size 5
 	vector<int> myv1(5);
 	cout << "\nThe size of myv1 is "<<myv1.size()<<"\n";
-	cout << "\n THe vector myv1 is " << ((myv1.empty()) ? "empty" : "not empty")<<"\n";
+	cout << "\nThe vector myv1 is " << ((myv1.empty()) ? "empty" : "not empty")<<"\n";
 
 	//Set all elements of a vector of size 10 to 2
 	vector<int> myv2(10, 2);
