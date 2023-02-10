@@ -34,6 +34,10 @@ int main()
 	float f1 = 100.5f, f2 = 200.5f;
 	add(f1, f2);
 
+	//ambiguous since all the overloads could potentially match once a conversion happens
+	float v1 = 23.4; int br = 83;
+	//add(v1, br);
+
 	return 0;
 
 }

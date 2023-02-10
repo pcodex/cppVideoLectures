@@ -10,7 +10,7 @@ class MyClass
 	int* ptr;
 
 public:
-	MyClass(int a, float b, int* p ) : aVal(a), bVal(b),ptr(p)
+	MyClass(int a, float b, int* p) : aVal(a), bVal(b),ptr(p)
 	{}
 
 	MyClass(const MyClass& src)
@@ -19,7 +19,7 @@ public:
 		bVal = src.bVal;
 		ptr = new int;  //deep copy
 		*ptr = *(src.ptr);
-	}
+	}	
 
 	int getaVal()
 	{
@@ -37,15 +37,15 @@ public:
 	}
 };
 
-void passMyClass(MyClass fnarg)
+void passMyClass(MyClass fnarg)//copy constructor will be called
 {
 	cout << "fnarg values : " << fnarg.getaVal() << "," << fnarg.getbVal() << ","<<fnarg.getptrVal()<<endl;
 }
 
 int main()
 {
-	int* pt = new int(44);
-	MyClass myc(10, 23.5f,pt);
+	int* pt = new int(44);	
+	MyClass myc(10, 23.5f,pt);	
 
 	cout << "myc values : "<<myc.getaVal() << "," << myc.getbVal() << "," << myc.getptrVal() << endl;
 
