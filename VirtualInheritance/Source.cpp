@@ -25,7 +25,9 @@ public:
 	{}
 };
 
-class Raccoon : virtual public Animal
+
+//remove the virtual and ambiguous copies of Animal's members will result
+class Raccoon : public virtual Animal
 {
 protected:
 	string color;

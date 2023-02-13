@@ -8,7 +8,7 @@ using namespace std;
 void display(shared_ptr<int> val)
 {
 	cout << "The value is " << *val;
-	cout << "display() : Shared pointer count is : " << val.use_count()<<endl;
+	cout << "\ndisplay() : Shared pointer count is : " << val.use_count()<<endl;
 }
 
 

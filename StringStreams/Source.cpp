@@ -28,6 +28,7 @@ int main()
 	cout << "Enter a few numbers :" << endl;	
 	int numInput = 0;
 	ostringstream oss;
+	
 	oss << "The numbers you entered are : ";
 	while (cin >> numInput)
 		oss << numInput << " ";	
